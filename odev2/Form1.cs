@@ -65,7 +65,7 @@ namespace odev2
         private void sorgubutton_Click(object sender, EventArgs e)
         {
             int sonuc = Liste_Ad.Where(abc => abc.Contains(sorgubox.Text)).Count();
-            MessageBox.Show("Aradýðýnýz isimden listede " + sonuc + " adet bulunmaktadýr.");
+            MessageBox.Show("Aradiginiz isimden listede " + sonuc + " adet bulunmaktadir.");
         }
 
         private void temizlebutton_Click(object sender, EventArgs e)
